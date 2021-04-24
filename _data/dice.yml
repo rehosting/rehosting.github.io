@@ -1,0 +1,36 @@
+name: DICE
+category: pure_emulation
+urls:
+  data_set: https://github.com/RiS3-Lab/DICE-DMA-Emulation/tree/master/DICE-Evaluation
+  paper: https://arxiv.org/abs/2007.01502
+  source: https://github.com/RiS3-Lab/DICE-DMA-Emulation
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: true
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: 2, 3
+  isas: ARM, MIPS
+  binary: true
+availability:
+  source: true
+  data_set: true

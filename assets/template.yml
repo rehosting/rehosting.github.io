@@ -1,0 +1,36 @@
+name: system name
+category: pure_emulation | hardware_in_the_loop | symbolic_abstractions | hybrid
+urls:
+  data_set: url to dataset, if any
+  paper:    url to paper/system
+  source:   url to source code, if any
+hardware:
+  passthrough: true | false
+  emulated:    true | false
+  replaced:    true | false
+  symbolic:    true | false
+os:
+  passthrough: true | false
+  emulated:    true | false
+  unmodified:  true | false
+  replaced:    true | false
+  symbolic:    true | false
+application:
+  passthrough: true | false
+  emulated:    true | false
+  unmodified:  true | false
+  replaced:    true | false
+  symbolic:    true | false
+function:
+  passthrough: true | false
+  emulated:    true | false
+  unmodified:  true | false
+  replaced:    true | false
+  symbolic:    true | false
+target:
+  type: Target types, e.g.,:  "2, 3"
+  isas: Architectures, e.g.,: "ARM, MIPS"
+  binary: true | false
+availability:
+  source:   true | false | partial
+  data_set: true | false

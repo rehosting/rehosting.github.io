@@ -1,0 +1,30 @@
+name: Avatar2
+category: hardware_in_the_loop
+urls:
+  data_set: https://github.com/avatartwo/bar18_avatar2
+  paper: https://doi.org/10.14722/bar.2018.23017
+  source: https://github.com/avatartwo/avatar2
+hardware:
+  passthrough: true
+  emulated: true
+  replaced: true
+  symbolic: false
+application:
+  passthrough: true
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: true
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '3'
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: true

@@ -1,0 +1,35 @@
+name: "Li\u201920"
+category: pure_emulation
+urls:
+  data_set: https://github.com/MCUSec/para-rehosting
+  paper: https://doi.org/10.14722/ndss.2021.24308
+hardware:
+  passthrough: false
+  emulated: false
+  replaced: true
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '2'
+  isas: "\u2014"
+  binary: false
+availability:
+  source: partial
+  data_set: partial

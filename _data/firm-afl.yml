@@ -1,0 +1,36 @@
+name: Firm-AFL
+category: pure_emulation
+urls:
+  data_set: https://github.com/zyw-200/FirmAFL/tree/master/firmware
+  paper: https://www.usenix.org/conference/usenixsecurity19/presentation/zheng
+  source: https://github.com/zyw-200/FirmAFL
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: false
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '1'
+  isas: ARM, MIPS
+  binary: true
+availability:
+  source: true
+  data_set: true

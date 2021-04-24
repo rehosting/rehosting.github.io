@@ -1,0 +1,36 @@
+name: P2IM
+category: pure_emulation
+urls:
+  data_set: https://github.com/RiS3-Lab/p2im/tree/master/externals
+  paper: https://www.usenix.org/conference/usenixsecurity20/presentation/feng
+  source: https://github.com/RiS3-Lab/p2im
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: true
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: 2, 3
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: true

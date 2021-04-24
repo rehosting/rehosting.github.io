@@ -1,0 +1,29 @@
+name: LuaQEMU
+category: pure_emulation
+urls:
+  paper: https://comsecuris.com/blog/posts/luaqemu_bcm_wifi/
+  source: https://github.com/Comsecuris/luaqemu
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: true
+  symbolic: false
+target:
+  type: '3'
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: false

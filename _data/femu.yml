@@ -1,0 +1,34 @@
+name: FEMU
+category: hardware_in_the_loop
+urls:
+  paper: https://ieeexplore.ieee.org/abstract/document/5751510
+hardware:
+  passthrough: true
+  emulated: true
+  replaced: false
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: 0, 1, 2, 3
+  isas: x86
+  binary: false
+availability:
+  source: false
+  data_set: false

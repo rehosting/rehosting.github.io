@@ -1,0 +1,30 @@
+name: Pretender
+category: hardware_in_the_loop
+urls:
+  data_set: https://github.com/ucsb-seclab/pretender/tree/master/test_programs
+  paper: https://www.usenix.org/conference/raid2019/presentation/gustafson
+  source: https://github.com/ucsb-seclab/pretender
+hardware:
+  passthrough: true
+  emulated: true
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '3'
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: true

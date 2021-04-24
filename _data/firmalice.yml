@@ -1,0 +1,34 @@
+name: Firmalice
+category: symbolic_abstractions
+urls:
+  paper: http://doi.org/10.14722/ndss.2015.23294
+hardware:
+  passthrough: false
+  emulated: false
+  replaced: false
+  symbolic: true
+os:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: true
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: true
+target:
+  type: 1, 2
+  isas: ARM, PPC
+  binary: true
+availability:
+  source: false
+  data_set: false

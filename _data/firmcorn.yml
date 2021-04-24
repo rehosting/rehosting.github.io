@@ -1,0 +1,36 @@
+name: FirmCorn
+category: hardware_in_the_loop
+urls:
+  data_set: https://github.com/FIRMCORN-Fuzzing/FIRMCORN/tree/master/examples
+  paper: https://ieeexplore.ieee.org/abstract/document/8990098
+  source: https://github.com/FIRMCORN-Fuzzing/FIRMCORN
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: false
+  symbolic: false
+os:
+  passthrough: true
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: true
+  symbolic: false
+target:
+  type: '1'
+  isas: ARM, MIPS, x86
+  binary: true
+availability:
+  source: true
+  data_set: partial

@@ -1,0 +1,34 @@
+name: "Clements\u201921"
+category: pure_emulation
+urls:
+  paper: https://bar2021.moyix.net/bar2021-preprint6.pdf
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: true
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '2'
+  isas: ARM
+  binary: true
+availability:
+  source: false
+  data_set: false

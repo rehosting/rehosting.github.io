@@ -1,0 +1,36 @@
+name: Inception
+category: hybrid
+urls:
+  data_set: https://github.com/Inception-framework/usenix-samples
+  paper: https://www.usenix.org/conference/usenixsecurity18/presentation/corteggiani
+  source: https://github.com/Inception-framework/inception
+hardware:
+  passthrough: true
+  emulated: true
+  replaced: false
+  symbolic: true
+os:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: 2, 3
+  isas: ARM
+  binary: false
+availability:
+  source: true
+  data_set: partial

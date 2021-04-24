@@ -1,0 +1,36 @@
+name: Laelaps
+category: symbolic_abstractions
+urls:
+  data_set: https://github.com/dongmu/Laelaps/tree/master/proj
+  paper: https://doi.org/10.1145/3427228.3427280
+  source: https://github.com/dongmu/Laelaps
+hardware:
+  passthrough: false
+  emulated: false
+  replaced: false
+  symbolic: true
+os:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: 2, 3
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: partial

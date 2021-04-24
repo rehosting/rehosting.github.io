@@ -1,0 +1,34 @@
+name: "Costin\u201916"
+category: pure_emulation
+urls:
+  paper: https://dl.acm.org/doi/10.1145/2897845.2897900
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: false
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '1'
+  isas: ARM, MIPS
+  binary: true
+availability:
+  source: false
+  data_set: false

@@ -1,0 +1,34 @@
+name: "Kammerstetter\u201916"
+category: hardware_in_the_loop
+urls:
+  paper: http://thinkmind.org/articles/securware_2016_2_10_30082.pdf
+hardware:
+  passthrough: true
+  emulated: true
+  replaced: false
+  symbolic: false
+os:
+  passthrough: true
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: 0, 1
+  isas: MIPS
+  binary: true
+availability:
+  source: false
+  data_set: false

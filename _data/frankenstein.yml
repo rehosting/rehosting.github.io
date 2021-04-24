@@ -1,0 +1,36 @@
+name: Frankenstein
+category: hardware_in_the_loop
+urls:
+  data_set: https://github.com/seemoo-lab/frankenstein/tree/master/projects
+  paper: https://www.usenix.org/conference/usenixsecurity20/presentation/ruge
+  source: https://github.com/seemoo-lab/frankenstein
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: true
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: true
+  symbolic: false
+target:
+  type: '2'
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: partial

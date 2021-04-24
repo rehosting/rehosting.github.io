@@ -1,0 +1,36 @@
+name: Charm
+category: hardware_in_the_loop
+urls:
+  data_set: https://trusslab.github.io/charm/
+  paper: https://www.usenix.org/conference/usenixsecurity18/presentation/talebi
+  source: https://github.com/trusslab/charm
+hardware:
+  passthrough: true
+  emulated: true
+  replaced: false
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: true
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '1'
+  isas: ARM
+  binary: false
+availability:
+  source: true
+  data_set: true

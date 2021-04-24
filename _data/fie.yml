@@ -1,0 +1,29 @@
+name: FIE
+category: symbolic_abstractions
+urls:
+  paper: https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson
+  source: http://pages.cs.wisc.edu/~davidson/fie/
+hardware:
+  passthrough: false
+  emulated: false
+  replaced: false
+  symbolic: true
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '3'
+  isas: MSP430
+  binary: false
+availability:
+  source: true
+  data_set: false

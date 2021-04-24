@@ -1,0 +1,36 @@
+name: Avatar
+category: hybrid
+urls:
+  data_set: https://github.com/avatarone/avatar-samples
+  paper: https://www.ndss-symposium.org/ndss2014/programme/avatar-framework-support-dynamic-security-analysis-embedded-systems-firmwares/
+  source: https://github.com/avatarone/avatar-python
+hardware:
+  passthrough: true
+  emulated: true
+  replaced: false
+  symbolic: true
+os:
+  passthrough: true
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: true
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: true
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: true
+target:
+  type: 2, 3
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: true

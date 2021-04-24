@@ -1,0 +1,36 @@
+name: Mousse
+category: hybrid
+urls:
+  data_set: https://github.com/trusslab/mousse_scripts/tree/master/testing
+  paper: https://doi.org/10.1145/3342195.3387556
+  source: https://github.com/trusslab/mousse
+hardware:
+  passthrough: true
+  emulated: false
+  replaced: false
+  symbolic: false
+os:
+  passthrough: true
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: true
+target:
+  type: '1'
+  isas: ARM
+  binary: false
+availability:
+  source: true
+  data_set: partial

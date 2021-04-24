@@ -1,0 +1,36 @@
+name: HALucinator
+category: pure_emulation
+urls:
+  data_set: https://github.com/embedded-sec/halucinator/tree/master/test
+  paper: https://www.usenix.org/conference/usenixsecurity20/presentation/clements
+  source: https://github.com/embedded-sec/halucinator
+hardware:
+  passthrough: false
+  emulated: true
+  replaced: true
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: true
+  symbolic: false
+target:
+  type: 2, 3
+  isas: ARM, MIPS
+  binary: true
+availability:
+  source: true
+  data_set: true

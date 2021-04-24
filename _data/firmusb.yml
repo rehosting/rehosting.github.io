@@ -1,0 +1,29 @@
+name: FirmUSB
+category: symbolic_abstractions
+urls:
+  data_set: https://github.com/brandonlw/Psychson
+  paper: https://doi.org/10.1145/3133956.3134050
+hardware:
+  passthrough: false
+  emulated: false
+  replaced: false
+  symbolic: true
+application:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: true
+  replaced: false
+  symbolic: false
+target:
+  type: '3'
+  isas: 8051/52
+  binary: true
+availability:
+  source: false
+  data_set: true

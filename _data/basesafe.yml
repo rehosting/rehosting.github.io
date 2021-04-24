@@ -1,0 +1,36 @@
+name: BaseSafe
+category: pure_emulation
+urls:
+  data_set: https://github.com/fgsect/BaseSAFE/blob/master/examples/modem_raw.img
+  paper: https://doi.org/10.1145/3395351.3399360
+  source: https://github.com/fgsect/BaseSAFE
+hardware:
+  passthrough: false
+  emulated: false
+  replaced: true
+  symbolic: false
+os:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+application:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: true
+  symbolic: false
+function:
+  passthrough: false
+  emulated: false
+  unmodified: false
+  replaced: false
+  symbolic: false
+target:
+  type: '2'
+  isas: ARM
+  binary: true
+availability:
+  source: true
+  data_set: true
