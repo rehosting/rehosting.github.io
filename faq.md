@@ -24,7 +24,7 @@ Feel free to open a issue on our [github repository](https://github.com/rehostin
 First, fork and clone our repository:
 ```shell
 $ git clone git@github.com:[your_github_user_name]/rehosting.github.io.git
-$ cd rehosting.github.io.git
+$ cd rehosting.github.io
 ```
 
 Afterwards, copy the [`template.yml`](https://github.com/rehosting/rehosting.github.io/blob/main/assets/template.yml) file into the the `_data` directory, using the system name as destination name:

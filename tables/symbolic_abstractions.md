@@ -16,7 +16,7 @@ title: Symbolic Abstactions
     <th colspan="1" scope="colgroup"></th>
     <th colspan="4" scope="colgroup">Layer</th>
     <th colspan="3" scope="colgroup">Target</th>
-    <th colspan="2" scope="colgroup">Availability</th>
+    <th colspan="2" scope="colgroup">Availability<sup>*</sup></th>
   </tr>
   <tr>
     <th scope="col">System</th>
@@ -24,7 +24,7 @@ title: Symbolic Abstactions
     <th scope="col">OS</th>
     <th scope="col">Application</th>
     <th scope="col">Function</th>
-    <th scope="col">Type</th>
+    <th scope="col">Type<sup>†</sup></th>
     <th scope="col">ISA(s)</th>
     <th scope="col">Binary?</th>
     <th scope="col">Source code</th>
@@ -180,3 +180,6 @@ title: Symbolic Abstactions
 &nbsp; ![replaced](repl.png): Replaced
 &nbsp; ![symbolic](symb.png): Symbolic model
 &nbsp; ~: Partial Availability
+
+<sup>*</sup> When available, source code and data sets can be found by clicking on the checkmarks. <br/>
+<sup>†</sup> Target types are described in our [faq]({{ site.baseurl }}{% link faq.md %}).
