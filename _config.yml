@@ -23,7 +23,7 @@ email: m.muench@vu.nl
 description: >- # this means to ignore newlines until "baseurl:"
   A community maintained overview and categorization of rehosting frameworks.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rehosting.github.io"
+url: "https://sota.rehosti.ng"
 twitter_username: TBD
 github_username:  rehosting
 
