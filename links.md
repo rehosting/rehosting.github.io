@@ -11,3 +11,4 @@ permalink: /links/
 **Data Sets**
 * [Collection of monolitic firmware images](https://github.com/ucsb-seclab/monolithic-firmware-collection)
 
+* [Corpus of Cortex SVD files](https://github.com/posborne/cmsis-svd)
