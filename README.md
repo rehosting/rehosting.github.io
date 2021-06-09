@@ -1,1 +1,0 @@
-This GitHub Pages site is available at https://sota.rehosti.ng. Due to technical limitations with static GitHub Pages and our desire to have a (dynamic) page for Slack invites, the state of the art tables and resources from this repository and site are dynamically mirrored at our primary website https://rehosti.ng.
