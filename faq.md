@@ -47,7 +47,4 @@ Now, if everything succeeded, you should be able to see your local copy of this 
 The work on this webpage is purely educational and summarizes the state of the art. No attacks have been carried out within this work, so these questions do not apply here.
 
 # Q: Who is behind this?
-
-The [paper]({{ site.baseurl }}{% link assets/paper.pdf %}) on which the presented classification is based on was written by:
-Andrew Fasano, Tiemoko Ballo, Marius Muench, Alexander Bulekov, Brendan Dolan-Gavitt, Manuel Egele, Aurélien Francillon, Long Lu, Nick Gregory, Davide Balzarotti, and William Robertson.
-
+Check out our [About Us](/about/) page.
